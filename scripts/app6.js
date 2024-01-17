@@ -32,7 +32,7 @@ function getData() {
         })
 }
 function getData2() {
-    const url = 'json6.json';
+    const url = '../json/json1.json';
     fetch(url)
         .then((rep) => rep.text())
         .then((data) => {
